@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    padding: 6% 10% 0%;
+    background: linear-gradient(#EEE2DC,#EDC7B7,#AC3B61);
+}
+
+.todo-body{
+    min-height:96.7vh;
+}
+
+.todo-list{
+    padding: 5% 0% 2%;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;;
+    text-align: center;
+    font-weight: 700;
+
+}
+/*Heading Section*/
+.first-heading{
+    color: #EDC7B7;
+}
+
+.first-heading-span{
+    color: #AC3B61;
+}
+
+.second-heading{
+    color: #EEE2DC;
+
+}
+
+.second-heading-span{
+    color: #EDC7B7;
+}
+
+/* Warning Message section */
+#warningMessage{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0px;
+ }
+ 
+/* List Section */
+input,ol{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol{
+    padding: 0;
+}
+
+ol li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+ol li:nth-child(even){
+    background: #E9ECEF;
+}
+
+ol li button{
+    float: right;
+}
+
+.added-list-items{
+    margin-top: 50px;
+    padding: 10% 0%;
+}
+
+/* Remove button section */
+.rmvBtn{
+    border: none;
+    background: gray;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.rmvBtn:hover{
+    color: #f1c8b6;
+}
